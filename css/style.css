@@ -197,7 +197,7 @@ color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	line-height:20px;
-	margin:17px 32px;
+	margin:17px 20px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -784,13 +784,13 @@ border: 2px solid #fff;
 	display:block;
 	text-align:center;
 }
-.copyright, .credits{
+.copyright, .credits, .privacy{
 	color:#cccccc;
 	font-size:14px;
 	display:block;
 	text-align:center;
 }
-.copyright a, .credits a{
+.copyright a, .credits a, .privacy a{
 	/* color:#7cc576; */
 	font-weight:600;
 	text-decoration: none;
@@ -799,7 +799,7 @@ border: 2px solid #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.copyright a:hover, .credits a:hover {
+.copyright a:hover, .credits a:hover, .privacy a:hover {
 	color: #fff;
 }
 

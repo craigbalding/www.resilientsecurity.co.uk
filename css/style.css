@@ -99,10 +99,11 @@ p{
 	margin-bottom:0px
 }
 .alert-trumpet {
-    background-color: #fff;
+    background-color: ##FFF176;
     /* border-color: #bce8f1; */
-    color: #000;
+    color: #455a64;
 	padding:3px;
+	font-weight:bold;
 }
 .header{
 	text-align:center;

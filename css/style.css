@@ -103,6 +103,10 @@ p{
     /* border-color: #bce8f1; */
     color: #455a64;
 	padding:3px;
+	text-align:center;
+}
+.alert-trumpet a{
+	font-weight:bold;
 }
 .header{
 	text-align:center;

@@ -95,6 +95,15 @@ p{
 /* Header Styles
 ---------------------------------*/
 
+.alert{
+	margin-bottom:0px
+}
+.alert-trumpet {
+    background-color: #fff;
+    /* border-color: #bce8f1; */
+    color: #000;
+	padding:3px;
+}
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;

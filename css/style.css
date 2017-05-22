@@ -660,6 +660,8 @@ border: 2px solid #fff;
 	display:block;
 	margin-bottom:20px;
 	font-size:15px;
+	text-align:center;
+	font-style:italic;
 }
 .social-link{
 	padding:35px 0;

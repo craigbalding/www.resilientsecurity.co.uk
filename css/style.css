@@ -655,6 +655,12 @@ border: 2px solid #fff;
 	display:block;
 	overflow:hidden;
 }
+.nospam p{
+	line-height:28px
+	display:block;
+	margin-bottom:20px;
+	font-size:15px;
+}
 .social-link{
 	padding:35px 0;
 	margin:0 0 0 68px;

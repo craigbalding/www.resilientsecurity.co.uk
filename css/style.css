@@ -95,10 +95,23 @@ p{
 /* Header Styles
 ---------------------------------*/
 
+.alert{
+	margin-bottom:0px
+}
+.alert-trumpet {
+    background-color: #FFF176;
+    /* border-color: #bce8f1; */
+    color: #455a64;
+	padding:3px;
+	text-align:center;
+}
+.alert-trumpet a{
+	font-weight:bold;
+}
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	padding:200px 0;
 }
 .logo{
 	width:130px;
@@ -197,7 +210,7 @@ color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	line-height:20px;
-	margin:17px 32px;
+	margin:17px 20px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -642,6 +655,14 @@ border: 2px solid #fff;
 	display:block;
 	overflow:hidden;
 }
+.nospam p{
+	line-height:28px
+	display:block;
+	margin-bottom:20px;
+	font-size:15px;
+	text-align:center;
+	font-style:italic;
+}
 .social-link{
 	padding:35px 0;
 	margin:0 0 0 68px;
@@ -784,13 +805,13 @@ border: 2px solid #fff;
 	display:block;
 	text-align:center;
 }
-.copyright, .credits{
+.copyright, .credits, .privacy{
 	color:#cccccc;
 	font-size:14px;
 	display:block;
 	text-align:center;
 }
-.copyright a, .credits a{
+.copyright a, .credits a, .privacy a{
 	/* color:#7cc576; */
 	font-weight:600;
 	text-decoration: none;
@@ -799,7 +820,7 @@ border: 2px solid #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.copyright a:hover, .credits a:hover {
+.copyright a:hover, .credits a:hover, .privacy a:hover {
 	color: #fff;
 }
 

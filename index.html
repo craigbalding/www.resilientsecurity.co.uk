@@ -243,22 +243,39 @@
 <section class="main-section contact" id="contact">
 	
         <div class="row">
-        	<div class="col-lg-6 col-sm-5 col-lg-offset-3 col-sm-offset-3 wow fadeInUp delay-02s">
+			<div class="col-lg-6 col-sm-7 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+				<div class="contact-info-box address clearfix">
+                	<h3><i class=" icon-map-marker"></i>Location:</h3>
+                	<span>London, UK</span>
+                </div>
+                <div class="contact-info-box phone clearfix">
+                	<h3><i class="fa-phone"></i>Phone:</h3>
+                	<span>+44 (0)20 7193 8513</span>
+                </div>
+                <div class="contact-info-box email clearfix">
+                	<h3><i class="fa-pencil"></i>email:</h3>
+                	<span>hello@resilientsecurity.co.uk</span>
+                </div>
+                <ul class="social-link">
+                	<li class="twitter"><a href="https://twitter.com/resilientsec"><i class="fa-twitter"></i></a></li>
+                </ul>
+            </div>
+			<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s animated" style="visibility: visible; animation-name: fadeInUp;">
             	<div class="form">
-                	<div class="nospam"><p>We respect your privacy and will never spam you.  If you prefer to email directly from your own device, please address to hello@resilientsecurity.co.uk.</p></div>
+                	<div class="nospam"><p>We respect your privacy and will never spam you.</p></div>
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
-                    <form action="" name="contact" method="post" role="form" class="contactForm" netlify>
+                    <form action="" method="post" role="form" class="contactForm">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">

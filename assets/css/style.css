@@ -1500,6 +1500,8 @@ section {
   font-weight: 600;
 }
 
+#sendmessage.show, .show{display:block;}
+
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;

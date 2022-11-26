@@ -95,6 +95,10 @@ h6 {
   text-transform: uppercase;
 }
 
+#header .logo h2 {
+  text-transform: none;
+}
+
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #fff;

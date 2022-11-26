@@ -95,10 +95,6 @@ h6 {
   text-transform: uppercase;
 }
 
-#header .logo h2 {
-  text-transform: none;
-}
-
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #fff;
@@ -391,7 +387,6 @@ h6 {
   margin-bottom: 30px;
   font-size: 14px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 #hero .btn-get-started {
